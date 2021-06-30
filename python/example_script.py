@@ -20,6 +20,8 @@ import argparse
 import json
 import typing
 
+def merge_conflict_function():
+    pass
 
 def dummy_line_modification(line: str, i: int, mods: typing.Dict[str, dict]) -> str:
     """Defines the modification to be perfomed for a single input line.
